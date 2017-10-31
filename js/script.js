@@ -20,23 +20,23 @@
     //allow cross origin loading
     loader.crossOrigin = '';
 
-    loader.load('js/node.png',
+    loader.load('https://i.imgur.com/X35NZCl.png',
 
         function(texture1) { 
 
-            loader.load('js/node2.png',
+            loader.load('https://i.imgur.com/2a1hCTI.png',
 
                 function(texture2) {
 
-                    loader.load('js/node3.png',
+                    loader.load('https://i.imgur.com/Gsnyfcr.png',
 
                         function(texture3) {
                            
-                           loader.load('js/node4.png',
+                           loader.load('https://i.imgur.com/P19L7K9.png',
 
                                 function(texture4) {
 
-                                    loader.load('js/node5.png',
+                                    loader.load('https://i.imgur.com/h7s5hbO.png',
 
                                         function(texture5) {
                                             init(texture1, texture2, texture3, texture4, texture5);
